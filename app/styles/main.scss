@@ -1,0 +1,150 @@
+@import "vendor/bootstrap";
+@import "variables";
+@import "button";
+@import "forms";
+body {
+  padding-top: 51px;
+}
+
+@media (min-width: $screen-sm-min) {
+  .img-responsive{
+    max-width: 42% !important;
+  }
+}
+.container-fluid{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+video {
+  position: absolute;
+  min-height: auto;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+.first{
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  .first-header{
+    color: rgba(#ffffff, 0.9);
+  }
+  .video-fit{
+    padding-bottom: 50%;
+  }
+}
+@media (min-width: 768px){
+  h1{
+    font-size: 4em;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .p-lg{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: rgb(60, 52, 31);
+  }
+  .p-xlg{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(60, 52, 31);
+  }
+}
+
+.margin-md{
+  margin-top: 15%;
+}
+.margin-sm{
+  margin-top: 5%;
+}
+.bkg-img{
+  position: absolute;
+  min-height: auto;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+.second{
+  position: relative;
+  height: 100vh;
+  padding-top: 51px;
+  background-color: #EFEFEF;
+  background: url("../../images/bg 1.jpg")no-repeat center 0% ;
+  background-size: cover;
+  .p-md{
+    font-size: 2.5em;
+    color: rgb(60, 52, 31);
+  }
+  .p-lg{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: rgb(60, 52, 31);
+  }
+  .p-xlg{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(60, 52, 31);
+  }
+}
+.bgk-primary-green{
+  background-color: #1d473e;
+}
+.navbar-toggle{
+  margin-left: 5px;
+}
+@media (min-width: 768px){
+  .navbar-nav{
+    float: none;
+    margin-left: 25%;
+    margin-right: auto;
+    >li{
+      margin-left: 3%;
+    }
+  }
+}
+.navbar-brand span{
+  color: #FFF;
+}
+.navbar-collapse{
+  border-top: 0;
+}
+
+.navbar-default .navbar-toggle{
+  background-color: #1d473e;
+  &:hover,
+  &:focus{
+    background-color: #2e7465;
+  }
+  .icon-bar{
+    background-color: #FFF;
+  }
+}
+.nav .navbar-nav{
+  ul>li{
+  }
+}
+.navbar-default .navbar-nav > li {
+  >a{
+    color: #4cc8ad;
+  }
+  >a:hover,
+  >a:focus{
+    color: #368e7b;
+  }
+}
+.form-container{
+  width: 60%;
+  &.btn-container{
+    width: 80%;
+  }
+}

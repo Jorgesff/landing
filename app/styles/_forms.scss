@@ -1,0 +1,10 @@
+.form-control {
+	box-shadow: none;
+	border-color: #d1d1d1;
+	border-radius: $border-radius;
+
+	&:focus {
+		box-shadow: none;
+		border-color: #a7a7a7;
+	}
+}

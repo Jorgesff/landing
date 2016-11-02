@@ -1,0 +1,12 @@
+@mixin push-button($text-color, $background-color, $border-color) {
+  color: $text-color;
+  box-shadow: 0 5px $border-color;
+  -webkit-box-shadow: 0 5px $border-color;
+  background-color: $background-color;
+
+  &:active {
+    box-shadow: 0 1px $border-color;
+    -webkit-box-shadow: 0 1px $border-color;
+    transform: translateY(4px);
+  }
+}
