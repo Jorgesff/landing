@@ -1,146 +1,188 @@
 <!doctype html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SeuGado.com</title>
 
-    <!-- Disable tap highlight on IE -->
-    <meta name="msapplication-tap-highlight" content="no">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeuGado.com</title>
 
-    <!-- Web Application Manifest -->
-    <link rel="manifest" href="manifest.json">
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="SeuGado">
-    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="manifest.json">
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
-    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="SeuGado">
+  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#2F3BA2">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+  <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
 
-    <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#2F3BA2">
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
 
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#2F3BA2">
 
-    <!--
+  <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+
+  <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
 
-    <!-- Your styles -->
-    <link rel="stylesheet" href="styles/main.css">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar bgk-primary-green navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="collapsed navbar-toggle pull-left" data-toggle="collapse" data-target="#topbar-collapse" aria-expanded="false">
+  <!-- Your styles -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar bgk-primary-green navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="collapsed navbar-toggle pull-left" data-toggle="collapse" data-target="#topbar-collapse" aria-expanded="false">
                <span class="sr-only">Toggle</span>
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
             </button>
-          </div>
-          <div class="collapse navbar-collapse" id="topbar-collapse">
-            <ul class=" nav navbar-nav text-center">
-                <li><a href="#">SeuGado</a></li>
-                <li><a href="#">Conheça o projeto</a></li>
-                <li><a href="#">A empresa</a></li>
-                <li><a href="#">Se inscreva</a></li>
-            </ul>
-          </div>
         </div>
-      </nav>
-    </header>
-    <div class="container-fluid">
-      <section class="first" id="first">
+        <div class="collapse navbar-collapse" id="topbar-collapse">
+          <ul class=" nav navbar-nav text-center">
+            <li><a href="#">SeuGado</a></li>
+            <li><a href="#">Conheça o projeto</a></li>
+            <li><a href="#">A empresa</a></li>
+            <li><a href="#">Se inscreva</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <section class="first" id="first">
           <video playsinline autoplay muted loop poster="images/bg 1.jpg">
-            <source src="images/02.mp4" type="video/mp4">
-          </video>
+                <source src="images/02.mp4" type="video/mp4">
+              </video>
           <!-- LOGO -->
-        <div class="row">
-          <img class="img-responsive center-block" src="images/logo_seugado.png" />
-        </div>
-        <!-- TITULO -->
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="first-header text-center">
-              A <b>integração da pecuária</b> gerando<br> mais<b> lucros e resultados</b> para todos!
-            </h1>
+          <div class="row">
+            <img class="img-responsive center-block" src="images/logo_seugado.png" />
           </div>
-        </div>
-        <!-- CADASTRO -->
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 ">
-            <form>
-              <h3 class=" first-header text-center">Faça parte do lançamento</h3>
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-container center-block">
-                      <input class="form-control" type="email" name="name" placeholder="Digite seu Email">
-                      <br>
-                      <input class="form-control" type="text" name="name" placeholder="Whatsapp">
-                      <br>
-                      <button class=" center-block btn --push-button btn-lemon" type="button" name="button">
-                        inscrever
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-    <section class="second" id="second">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="bkg-second">
-              <p class="p-lg text-center">A força da pecuária</p>
-              <p class="p-xlg text-center">nacional</p>
-
-              <p class="margin-md p-md text-center">
-                O potencial é enorme, basta analisar os números <br>expressivos da pecuária Brasileira
+          <!-- TITULO -->
+          <div class="row">
+            <div class="col-md-12">
+              <p class="first-header p-xlg text-center">
+                A <b>integração da pecuária</b> gerando
+                <br> 
+                mais<b> lucros e resultados</b> para todos!
               </p>
             </div>
           </div>
-        </div>
-        <div class="margin-sm row">
-          <div class="col-md-4">
-            <img class="center-block" src="images/vaca.png" alt="" />
-            <p class=" p-md text-center">
-              <b>215 mi</b> de cabeças <br> rebanho nacional
-            </p>
+          <!-- CADASTRO -->
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 ">
+              <form>
+                <p class=" p-sm text-center">Faça parte do lançamento</p>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-container center-block">
+                        <input class="form-control" type="email" name="name" placeholder="Digite seu Email">
+                        <br>
+                        <input class="form-control" type="text" name="name" placeholder="Whatsapp">
+                        <br>
+                        <button class=" center-block btn --push-button btn-lemon" type="button" name="button">
+                            inscrever
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
-          <div class="col-md-4">
-            <img class="center-block" src="images/money.png" alt="" />
-            <p class="p-md text-center">
-              <b>R$332 bi</b> <br>movimentação financeira
-            </p>
-          </div>
-          <div class="col-md-4">
-            <img class="center-block" src="images/trofeu.png" alt="" />
-            <p class="p-md text-center">
-              <b>2º</b> <br>maior rebanho mundial
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <!-- <img class="img-responsive bkg2" src="images/bg 1.jpg" /> -->
 
-    <script src="./scripts/jquery.js"></script>
-    <script src="./scripts/bootstrap.js"></script>
-  </body>
+        <div class="row">
+          <div class="col-md-12">
+            <section class="second" id="second">
+              <p class="p-lg text-center">A força da pecuária</p>
+              <p class="p-xlg text-center"><b>nacional</b></p>
+              <p class="margin-sm p-md text-center">
+                O potencial é enorme, basta analisar os números <br>expressivos da pecuária Brasileira
+              </p>
+              <div class="margin-sm row">
+                <div class="col-md-4">
+                  <img class="center-block" src="images/vaca.png" alt="" />
+                  <p class=" p-md text-center">
+                    <b class="p-sm">215 mi</b> de cabeças <br> rebanho nacional
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img class="center-block" src="images/money.png" alt="" />
+                  <p class="p-md text-center">
+                    <b class="p-sm">R$332 bi</b> <br>movimentação financeira
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img class="center-block" src="images/trofeu.png" alt="" />
+                  <p class="p-md text-center">
+                    <b class="p-sm">2º</b> <br>maior rebanho mundial
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+
+        <!-- <img class="img-responsive bkg3" src="images/bg.png" /> -->
+
+        <div class="row">
+          <div class="col-md-12">
+            <section id="third" class="third">
+              <p class="text-center" style="font-size: 8em; text-transform:uppercase;">
+                integrando
+              </p>
+              <p class="text-center" style="font-size: 5em; text-transform:uppercase">
+                <b>a pecuaria</b>
+              </p>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <img class="chain-outcenter center-block" src="images/cadeia descentralizada.png">
+                  <p style="font-size: 10em; height: 150px;">
+                    Cadeia
+                    <p class="pull-right" style="font-size: 6em">
+                      <b>Descentralizada</b>
+                    </p>
+                  </p>
+
+                  <p class="p-sm pull-left">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts/jquery.js"></script>
+  <script src="./scripts/bootstrap.js"></script>
+</body>
+
 </html>
