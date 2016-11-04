@@ -8,6 +8,10 @@ body {
 .container-fluid{
   padding-left: 0 !important;
   padding-right: 0 !important;
+  @media (max-width: $screen-sm-min) {
+    padding: 0 15px !important;
+  }
+
 }
 
 .first{
@@ -47,12 +51,12 @@ body {
     .p-lg{
       font-size: 1.5em;
       text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.86);
+      color: rgba(190, 51, 51, 0.86);
     }
     .p-xlg{
       font-size: 2em;
       text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.86);
+      color: rgba(212, 69, 69, 0.86);
     }
   }
 }
@@ -82,6 +86,7 @@ body {
     text-transform: uppercase;
   }
   @media (max-width: $screen-sm-min) {
+    height: 130vh;
     .p-lg{
       font-size: 1.5em;
       text-transform: uppercase;
@@ -111,18 +116,25 @@ body {
   z-index: -1;
 }
 .third{
-  position:absolute;
+  position:relative;
   border: 1px #000;
   border-style: solid;
-  height: 200vh;
+  height: 320vh;
   width: 100%;
   padding-top: 51px;
   z-index: 1;
-  .chain-outcenter{
-    max-width: 60vh ;
-    max-height: 60vh;
-    width: auto;
-    height: auto ;
+  .third-header{
+    height:14vh;
+    margin-bottom: 15px;
+  }
+  .margin-r-sm{
+    margin-right: 20%;
+  }
+  .margin-r-md{
+    margin-right: 30%;
+  }
+  .p-fix{
+    height: 55px;
   }
   .p-sm{
     font-size: 2em;
@@ -134,21 +146,154 @@ body {
 
   }
   .p-xlg{
-    font-size: 4em;
-    font-weight: 400;
+    font-size: 8em;
     text-transform: uppercase;
 
   }
   @media (max-width: $screen-sm-min) {
+    height: 225vh;
+    // 440vh caso forth fique visivel no mobile
+    .margin-r-sm{
+      margin-right: 5%;
+    }
+    .margin-r-md{
+      margin-right: 5%;
+    }
+    .chain-outcenter{
+      max-width: 60vh ;
+      max-height: 60vh;
+      width: auto;
+      height: auto ;
+    }
+    .p-fix{
+      height: 30px;
+    }
+    .p-sm{
+      font-size: 1em;
+    }
+    .p-lg{
+      font-size: 2em;
+      text-transform: uppercase;
+      color: rgba(#19ab53, 0.9);
+    }
+    .p-xlg{
+      font-size: 3em;
+      text-transform: uppercase;
+      color: rgba(#37c745, 0.9);
+    }
+  }
+}
+.forth{
+  position: relative;
+  border: 1px #000;
+  border-style: solid;
+  height: 130vh;
+  padding-top: 51px;
+  z-index: 1;
+  .p-sm{
+    font-size: 2em;
+    color: rgb(60, 52, 31);
+  }
+  .p-md{
+    font-size: 2.5em;
+    color: rgb(60, 52, 31);
+  }
+  .p-lg{
+    font-size: 3.5em;
+    text-transform: uppercase;
+
+  }
+  .p-xlg{
+    font-size: 4em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  hr{
+    border-top: 5px
+  }
+  @media (max-width: $screen-sm-min) {
+    height: 275vh;
     .p-lg{
       font-size: 1.5em;
       text-transform: uppercase;
-      color: rgba(#ffffff, 0.9);
+      color: rgb(60, 52, 31);
     }
     .p-xlg{
       font-size: 2em;
       text-transform: uppercase;
-      color: rgba(#ffffff, 0.9);
+      color: rgb(60, 52, 31);
+    }
+    .p-md{
+      font-size: 0.9em;
+      color: rgb(60, 52, 31);
+    }
+  }
+}
+.fifth{
+  position:relative;
+  border: 1px #000;
+  border-style: solid;
+  height: 320vh;
+  width: 100%;
+  padding-top: 51px;
+  z-index: 1;
+  .fifth-header{
+    height:14vh;
+    margin-bottom: 15px;
+  }
+  .margin-r-sm{
+    margin-right: 20%;
+  }
+  .margin-r-md{
+    margin-right: 30%;
+  }
+  .p-fix{
+    height: 55px;
+  }
+  .p-sm{
+    font-size: 2em;
+
+  }
+  .p-lg{
+    font-size: 3.5em;
+    text-transform: uppercase;
+
+  }
+  .p-xlg{
+    font-size: 8em;
+    text-transform: uppercase;
+
+  }
+  @media (max-width: $screen-sm-min) {
+    height: 225vh;
+    // 440vh caso forth fique visivel no mobile
+    .margin-r-sm{
+      margin-right: 5%;
+    }
+    .margin-r-md{
+      margin-right: 5%;
+    }
+    .chain-outcenter{
+      max-width: 60vh ;
+      max-height: 60vh;
+      width: auto;
+      height: auto ;
+    }
+    .p-fix{
+      height: 30px;
+    }
+    .p-sm{
+      font-size: 1em;
+    }
+    .p-lg{
+      font-size: 2em;
+      text-transform: uppercase;
+      color: rgba(#19ab53, 0.9);
+    }
+    .p-xlg{
+      font-size: 3em;
+      text-transform: uppercase;
+      color: rgba(#37c745, 0.9);
     }
   }
 }
